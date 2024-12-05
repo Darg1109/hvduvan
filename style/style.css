@@ -1,0 +1,109 @@
+body{
+    background-color: rgb(255, 254, 254);
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 2%;
+    justify-content: center;
+}
+
+header{
+    background-color: rgb(3, 3, 100);
+    width: 500px;
+    height: 140px;
+    color: white;
+    text-align: center;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 60px;
+    margin-top: 20px;
+}
+
+.part1{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.iPersonal{
+    justify-content: center;
+    padding-left: 10px;
+    color: white;
+    background-color: rgb(9, 85, 136);
+    width: 240px;
+    padding-right: 10px;
+}
+
+.vacio{
+    margin-top: 20px;
+    background-color: rgb(3, 3, 100);
+    width: 140px;
+    height: 144px;
+}
+
+.foto{
+    margin-top: 40px;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border-color: white;
+    border-width: medium;
+    
+}
+.iconos {
+    padding-top: 14px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+.texto{
+    padding-top: 0px;
+    padding-left: 10px;
+    gap: 23px;
+}
+.ic{
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+.info1{
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+}
+.info2{
+    text-align: left;
+}
+.info3{
+    text-align: left;
+}
+.h1{
+    width: 90%;
+    align-items: center;
+}
+.h2{
+    width: 95%;
+    align-items: center;
+    color: rgb(3, 3, 100);
+    height: 1px;
+}
+.titulo{
+    text-align: left;
+    padding-left: 10px;
+}
+.experiencia{
+    width: 450px;
+    padding-left: 100px;
+    padding-right: 80px;
+    padding-top: 70px;
+}
+.part2{
+    color: rgb(3, 3, 100);
+}
+a{
+    color: white;
+}
+.lab{
+    padding-top: 20px;
+}
